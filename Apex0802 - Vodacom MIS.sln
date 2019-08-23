@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2046
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Apex0802 - Vodacom MIS", "Apex0802 - Vodacom MIS\Apex0802 - Vodacom MIS.vbproj", "{343BFB41-6F24-46D5-869D-2A6E75A21858}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PLCService1", "PLCService1\PLCService1.vbproj", "{35789A08-2C2B-4DC5-B37D-8681C8CABE82}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "PLCServiceSetup", "PLCServiceSetup\PLCServiceSetup.vdproj", "{87E19F02-5322-4204-962C-08770ECF4E82}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.Debug = "False"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343BFB41-6F24-46D5-869D-2A6E75A21858}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343BFB41-6F24-46D5-869D-2A6E75A21858}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343BFB41-6F24-46D5-869D-2A6E75A21858}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343BFB41-6F24-46D5-869D-2A6E75A21858}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35789A08-2C2B-4DC5-B37D-8681C8CABE82}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35789A08-2C2B-4DC5-B37D-8681C8CABE82}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35789A08-2C2B-4DC5-B37D-8681C8CABE82}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35789A08-2C2B-4DC5-B37D-8681C8CABE82}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87E19F02-5322-4204-962C-08770ECF4E82}.Debug|Any CPU.ActiveCfg = Debug
+		{87E19F02-5322-4204-962C-08770ECF4E82}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {738AD953-B843-40B3-82E6-6D787AF1E5C1}
+	EndGlobalSection
+EndGlobal
